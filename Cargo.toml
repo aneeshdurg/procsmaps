@@ -1,0 +1,17 @@
+[package]
+name = "procsmaps"
+version = "0.1.0"
+edition = "2024"
+authors = ["Aneesh Durg <aneeshdurg17@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/aneeshdurg/procsmaps"
+repository = "https://github.com/aneeshdurg/procsmaps"
+description = "A rust crate for parsing /proc/<pid>/smaps"
+keywords = ["smaps", "memory mapping"]
+categories = ["parsing", "os"]
+
+[dependencies]
+lazy_static = "1.5.0"
+libc = "0.2.176"
+regex = "1.11.3"
