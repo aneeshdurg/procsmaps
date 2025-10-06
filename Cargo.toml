@@ -8,7 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/aneeshdurg/procsmaps"
 repository = "https://github.com/aneeshdurg/procsmaps"
 description = "A rust crate for parsing /proc/<pid>/smaps"
-keywords = ["smaps", "memory mapping"]
+keywords = ["smaps", "virtual-memory", "memory-mapping"]
 categories = ["parsing", "os"]
 
 [dependencies]
